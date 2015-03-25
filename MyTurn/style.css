@@ -1,0 +1,30 @@
+.card{
+  width: 200px;
+  display: inline-block;
+  height:200px;
+  background-color: red;
+  opacity: .5;
+  border-color: red;
+  border: 3px solid red;
+  border-radius: 10px;
+  }
+ .card:hover{
+  opacity:1;
+  } 
+.clicked{
+  background-color: red;
+  }
+.column1 div p {
+  display: none;
+  text-align: center;
+  font-size: 64px;
+  font-family: 'Arial';
+  }
+.column2 div p {
+  display: none;
+  text-align: center;
+  font-size: 64px;
+  font-family: 'Arial';
+  }
+
+
