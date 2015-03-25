@@ -6,6 +6,13 @@ $(document).ready(function(){
     $(this).find('p').toggle();
     console.log($(this).find('p').html())
   })
+
+
+//MS- consider using something like this to retun the 'ID' of an html element.
+
+console.log($(this).attr('id'));
+
+
  // $('.column2','card').on('click', function(){
  //    // $('.column1 div p').toggle();
  //    console.log(this);
